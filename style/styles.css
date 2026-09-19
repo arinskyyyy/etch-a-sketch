@@ -1,6 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap');
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Pixelify Sans", sans-serif;
 }
 
+#container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#outer-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 8px solid rgb(181, 170, 170);
+    border-radius: 40px;
+    margin-top: 5vh;
+    height: 90vh;
+    width: 40vw;
+    background-color: rgb(234, 230, 233);
+}
+
+#outer-box:hover {
+    cursor: url('https://pixelarticons.com/free/cursors/default-alt-dark.png') 4 1, auto;
+}
+
+h1 {
+    padding-bottom: 25px;
+    align-self: flex-start;
+    padding-left: 5vw;
+    color: rgb(100, 95, 95)
+}
+
+#btn {
+    height: 40px;
+    width: 100px;
+    margin-bottom: 25px;
+    align-self: flex-end;
+    margin-right: 100px;
+    border-radius: 10px;
+    font-size: 1rem;
+    border: 0px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12);
+}
+
+#btn:hover {
+    background-color: rgb(210, 207, 207);
+    cursor: url('https://pixelarticons.com/free/cursors/default-alt.png') 4 1, auto;
+}
+
+#sketch-box {
+    border: 5px solid rgb(207, 198, 198);
+    height: 450px;
+    width: 400px;
+    border-radius: 40px;
+    background-color: white;
+}
+
+#sketch-box:hover {
+    cursor: url('https://pixelarticons.com/free/cursors/default-alt.png') 4 1, auto;
+}
+
+#grid-size {
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+}
+
+#grid-size-display {
+    margin-top: 1px;
+    background-color: white;
+    height: 18px;
+    width: 70px;
+    margin-left: 5px;
+}
