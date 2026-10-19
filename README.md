@@ -32,4 +32,5 @@ Since this is a vanilla front-end project, no build tools or package managers ar
 ### Author
 
 Created by <a href="https://github.com/arinskyyyy">@arinskyyyy</a><br />
+demo-link : <a href="https://arinskyyyy.github.io/etch-a-sketch/">arinskyyyy.github.io/etch-a-sketch</a><br />
 linktree : <a href="https://linktr.ee/arinskyyyy">linktr.ee/arinskyyyy</a>
